@@ -31,7 +31,7 @@ public class YaMarket{
         driver.get("https://market.yandex.ru/");
        //driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
     }
         public void Test() {
             try {
